@@ -1,0 +1,17 @@
+name: "ape_lcl_gxe_pilot"
+output_dir: ../docs
+navbar:
+  title: "ape_lcl_gxe_pilot"
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: License
+    href: license.html
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
