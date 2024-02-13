@@ -1,7 +1,7 @@
-name: "ape_lcl_gxe_pilot"
+name: ape_lcl_gxe_pilot
 output_dir: ../docs
 navbar:
-  title: "ape_lcl_gxe_pilot"
+  title: ape_lcl_gxe_pilot
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/ghousman/ape_lcl_gxe_pilot
 output:
   workflowr::wflow_html:
     toc: yes
